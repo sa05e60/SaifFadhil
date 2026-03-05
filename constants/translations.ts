@@ -95,7 +95,7 @@ export const translations = {
             title: "تواصل",
             titleGradient: " معي",
             subtitle: "لديك مشروع أو فرصة عمل؟ لنتواصل.",
-            phone: "‏+964 771 924 7743",
+            phone: "+964 771 924 7743",
             email: "saiff7266@gmail.com",
             phoneLabel: "هاتف",
             emailLabel: "بريد إلكتروني",
