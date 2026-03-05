@@ -86,7 +86,7 @@ const About = () => {
                 </InView>
             </div>
             <div className="relative z-[20] mt-6 md:mt-0 md:absolute md:bottom-[10px] px-[5px] pb-8 md:pb-0">
-                <div className="cursive text-[20px] font-medium text-center text-gray-300" style={arFont}>
+                <div className="cursive text-[20px] font-medium text-center text-gray-300" style={isAr ? { fontFamily: "var(--font-cairo)" } : { fontFamily: "var(--font-playfair)", fontStyle: "italic" }}>
                     {t.tagline}
                 </div>
             </div>

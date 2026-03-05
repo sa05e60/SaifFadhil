@@ -41,7 +41,7 @@ const SkillText = () => {
                         animate={inView ? "visible" : "hidden"}
                         variants={slideInFromLeft(0.5)}
                         className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
-                            style={isAr ? { fontFamily: "var(--font-cairo)" } : {}}>
+                            style={isAr ? { fontFamily: "var(--font-cairo)" } : { fontFamily: "var(--font-playfair)", fontStyle: "italic" }}>
                         {t.subtitle}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#680000] to-[#D90429]">{t.subtitleGradient}</span>
                     </motion.div>
