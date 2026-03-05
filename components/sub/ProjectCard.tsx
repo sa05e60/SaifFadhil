@@ -27,7 +27,7 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
                         href={link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block mt-4 text-[#D90429] underline underline-offset-4 hover:text-[#ff4d6d] text-sm font-medium transition-colors"
+                        className="relative z-[50] inline-block mt-4 text-[#D90429] underline underline-offset-4 hover:text-[#ff4d6d] text-sm font-medium transition-colors cursor-pointer"
                     >
                         Visit Project →
                     </a>
