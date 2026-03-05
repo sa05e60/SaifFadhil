@@ -3,6 +3,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import { slideInFromBottom, slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import Image from "next/image";
 import { InView } from "react-intersection-observer";
 
 const About = () => {
@@ -41,7 +42,7 @@ const About = () => {
                             variants={slideInFromLeft(0.5)}
                             className="flex flex-col items-center w-auto h-auto rounded-full overflow-hidden border-[6px] border-[#3D0C11] bg-gradient-to-r from-[#680000] to-[#D90429]"
                         >
-                            <img src="/saif.jpg" alt="profile" width={250} />
+                        <Image src="/saif.jpg" alt="profile" width={250} height={250} className="object-cover" />
                         </motion.div>
                     )}
                 </InView>
